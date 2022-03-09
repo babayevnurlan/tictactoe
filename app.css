@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: rgb(241, 224, 221);
   font-family: sans-serif;
@@ -55,4 +59,10 @@ h2 {
   margin-top: 2rem;
   letter-spacing: 4px;
   color: red;
+}
+
+@media screen and (max-width: 485px) {
+  html {
+    font-size: 9.5px;
+  }
 }
